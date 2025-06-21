@@ -1,0 +1,16 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Streamlit cache
+.streamlit/
+
+# PyInstaller build/dist folders
+build/
+dist/
+*.spec
+
+# Optional editor files
+.vscode/
+.idea/
