@@ -24,7 +24,7 @@ st.set_page_config(
 )
 
 # Display the logo above your header
-st.image("assets/logo.png", width=180)
+st.image("assets/logo.png", width=300)
 
 
 
