@@ -15,6 +15,18 @@ st.set_page_config(
     layout="centered",
     initial_sidebar_state="expanded"
 )
+import streamlit as st
+
+st.set_page_config(
+    page_title="i-Spy Free",
+    page_icon="assets/logo.png",    # favicon/tab icon
+    layout="wide"
+)
+
+# Display the logo above your header
+st.image("assets/logo.png", width=180)
+st.header("🕵️‍♂️ i-Spy Free Worksheet Generator")
+
 
 # ─── 2) App header ──────────────────────────────────────────────────────────────
 st.title("🕵️ I Spy Worksheet Generator")
